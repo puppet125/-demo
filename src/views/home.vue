@@ -8,7 +8,8 @@ const add = () => {
 </script>
 <template>
   <div>
-    <button>{{'count:'count}}</button>
+    121212
+    <!-- <button>{{'count:'count}}</button> -->
   </div>
 </template>
 <style scoped lang="less"></style>
