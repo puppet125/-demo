@@ -15,11 +15,12 @@ export default defineConfig({
     cssTarget: "chrome65", // 兼容低版本浏览器上样式问题
     assetsDir: "./assets", // 打包配置路径
     rollupOptions: {
-      input: {
-        // 主要用于配置多页面
-        platForm: resolve(__dirname, "platform.html"),
-        merchant: resolve(__dirname, "merchant.html"),
-      },
+      // input: {
+      //   // 主要用于配置多页面
+      //   platForm: resolve(__dirname, "platform.html"),
+      //   merchant: resolve(__dirname, "merchant.html"),
+      // },
+      input:'./index.html'
     },
   },
 });
